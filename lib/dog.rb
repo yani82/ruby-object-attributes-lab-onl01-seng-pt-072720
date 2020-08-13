@@ -8,15 +8,12 @@ class Dog
   end 
 end 
   
-  def initialize(name, breed)
-  if breed.none?
-    puts "#{name}, Mutt"
-  else 
-    def breed=(breed)
+  def breed=(breed)
     @breed = breed
-  end   
+  end 
   
   def breed
-    @breed
-  end 
+    @breed 
+  end   
+ 
 end 
